@@ -1,0 +1,23 @@
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+
+# Intellij project files
+*.iml
+.idea/
+#.gitignore
+
+# Others
+target/
+logs/
+
+rebel.xml
+
+.DS_Store
+
+
+*.properties
+taglibs.jsp
+web.xml
