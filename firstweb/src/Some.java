@@ -6,5 +6,7 @@ public class Some {
 
     Some(int i){
         System.out.println("调用Some"+i);
+        System.out.println("调用Some"+i);
+        System.out.println("调用Some"+i);
     }
 }

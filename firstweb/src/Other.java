@@ -6,6 +6,9 @@ public class Other extends Some {
         System.out.print("调用Other");
         System.out.print("调用Other");
         System.out.print("调用Other");
+        System.out.print("调用Other");
+
+
 
 
     }
