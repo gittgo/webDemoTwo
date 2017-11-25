@@ -1,13 +1,8 @@
-package crazy.z6d2;
-
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
-import java.lang.reflect.Modifier;
+package crazy.z6.d1;
 
 public class Test1Integercatch {
 
-    // http://blog.csdn.net/Mr_Banban/article/details/53327330 反射相关内容   学习反射内容
-    //int j = new Integer(100);
+    // TODO  反射的使用； 验证从数据库取出的数据用Integer  类型用== 是不是一致的
 
     public static void ct(){
             try{
