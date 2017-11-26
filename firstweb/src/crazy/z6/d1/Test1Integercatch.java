@@ -40,7 +40,17 @@ public class Test1Integercatch {
 
     public static void main(String[] args) {
 
+        String s = "ssss";
+        System.out.println( s.equals("ss"));
+        System.out.println( s.hashCode());
+        s.hashCode();
 
+        String a="Aa";
+        String b="BB";
+        int aa=a.hashCode();
+        int bb=b.hashCode();
+        System.out.println( aa);
+        System.out.println( bb);
         Integer u = new Integer(2);
         Integer u2 = new Integer(2);
         Integer u3 = 2;
