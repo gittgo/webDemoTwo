@@ -1,6 +1,6 @@
 package algorithm.sequentialList;
 
-public class SLType {
+public class SLType11 {
 
     static final int MAXLTN=100;  // 定义顺序表最大长度
 
@@ -10,18 +10,18 @@ public class SLType {
 
 
     // 初始化顺序表
-    void SLInit(SLType SL){
+    void SLInit(SLType11 SL){
         SL.ListLen = 0;
     }
 
     // 计算顺序表长度
-    int SLLength(SLType slType){
+    int SLLength(SLType11 slType){
         return  slType.ListLen;
     }
 
 
     //插入节点
-    int SLInsert(SLType slType,int n,Data data){
+    int SLInsert(SLType11 slType, int n, Data data){
         int i;
         if(slType.ListLen>=MAXLTN){  //  顺序表节点数量已经超过最大数量
             System.out.println("顺序表节点数量已超过最大数量");
@@ -45,7 +45,7 @@ public class SLType {
     }
 
     // 追加节点
-    int SLAdd(SLType slType,Data data){
+    int SLAdd(SLType11 slType, Data data){
         if(slType.ListLen>=MAXLTN){
             System.out.println("顺序表已满，不能再添加节点了");
             return 0;
@@ -55,7 +55,7 @@ public class SLType {
     }
 
     //  删除节点
-    int SLDelete(SLType slType,int n){ // 根据序号返回数据元素
+    int SLDelete(SLType11 slType, int n){ // 根据序号返回数据元素
         if(n<1||n>slType.ListLen+1){
             System.out.println("删除节点错误！");
             return 0;
