@@ -2,7 +2,7 @@ package arithmetic.z4.d7;
 
 public class P4_6 {
 
-    static final int SIZE = 18;
+    static final int SIZE = 7;
 
     public static void heapSort(int a[],int n){
         int i,j,h,k;
