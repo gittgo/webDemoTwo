@@ -1,4 +1,4 @@
-package arithmetic.z2.d5;
+package src.arithmetic.z2.d5;
 
 public class DATA3 {
 

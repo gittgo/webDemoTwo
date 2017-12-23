@@ -1,4 +1,6 @@
-package algorithm.sequentialList;
+package src.algorithm.sequentialList;
+
+import src.algorithm.sequentialList.Data;
 
 public class SLType11 {
 

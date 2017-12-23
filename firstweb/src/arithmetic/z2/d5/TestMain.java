@@ -1,7 +1,5 @@
-package arithmetic.z2.d5;
+package src.arithmetic.z2.d5;
 
-import arithmetic.z2.d3.SLType;
-import arithmetic.z2.d4.DATA2;
 
 import java.util.Stack;
 

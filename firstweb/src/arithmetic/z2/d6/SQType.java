@@ -1,4 +1,4 @@
-package arithmetic.z2.d6;
+package src.arithmetic.z2.d6;
 
 public class SQType {
 

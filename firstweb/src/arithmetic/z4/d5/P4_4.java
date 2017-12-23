@@ -1,4 +1,4 @@
-package arithmetic.z4.d5;
+package src.arithmetic.z4.d5;
 
 public class P4_4 {
 

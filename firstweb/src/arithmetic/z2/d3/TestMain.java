@@ -1,4 +1,4 @@
-package arithmetic.z2.d3;
+package src.arithmetic.z2.d3;
 
 public class TestMain {
 

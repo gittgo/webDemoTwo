@@ -1,4 +1,4 @@
-package git.git7;
+package src.git.git7;
 
 public class TestTwo {
      public static void main(String[] args) {

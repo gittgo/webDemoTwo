@@ -1,4 +1,4 @@
-package arithmetic.z3.d1;
+package src.arithmetic.z3.d1;
 
 import java.util.Scanner;
 

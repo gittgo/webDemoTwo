@@ -1,4 +1,4 @@
-package arithmetic.z2.d7;
+package src.arithmetic.z2.d7;
 
 public class CBTType {
 

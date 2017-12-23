@@ -1,6 +1,7 @@
-package arithmetic.z2.d4;
+package src.arithmetic.z2.d4;
 
-import arithmetic.z2.d3.SLType;
+
+import src.arithmetic.z2.d3.SLType;
 
 public class TestMain {
 

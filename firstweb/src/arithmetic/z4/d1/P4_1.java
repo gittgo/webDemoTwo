@@ -1,4 +1,4 @@
-package arithmetic.z4.d1;
+package src.arithmetic.z4.d1;
 
 public class P4_1 {
     static final int SIZE = 10;

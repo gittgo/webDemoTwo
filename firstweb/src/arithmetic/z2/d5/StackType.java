@@ -1,4 +1,6 @@
-package arithmetic.z2.d5;
+package src.arithmetic.z2.d5;
+
+import src.arithmetic.z2.d5.DATA3;
 
 public class StackType {
 

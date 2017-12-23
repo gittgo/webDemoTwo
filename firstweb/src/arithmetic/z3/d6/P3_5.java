@@ -1,4 +1,4 @@
-package arithmetic.z3.d6;
+package src.arithmetic.z3.d6;
 
 import java.util.Random;
 import java.util.Scanner;

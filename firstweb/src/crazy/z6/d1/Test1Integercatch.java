@@ -1,4 +1,4 @@
-package crazy.z6.d1;
+package src.crazy.z6.d1;
 
 public class Test1Integercatch {
 

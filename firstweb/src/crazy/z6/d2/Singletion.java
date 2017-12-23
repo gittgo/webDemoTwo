@@ -1,4 +1,4 @@
-package crazy.z6.d2;
+package src.crazy.z6.d2;
 
 public class Singletion {
     private static Singletion singletion;

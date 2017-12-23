@@ -1,6 +1,5 @@
-package arithmetic.z2.d4;
+package src.arithmetic.z2.d4;
 
-import arithmetic.z2.d3.DATA;
 import com.sun.xml.internal.fastinfoset.algorithm.HexadecimalEncodingAlgorithm;
 
 // 链表

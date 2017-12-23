@@ -1,4 +1,4 @@
-package arithmetic.z2.d8;
+package src.arithmetic.z2.d8;
 
 public class GraphMatrix {
 
