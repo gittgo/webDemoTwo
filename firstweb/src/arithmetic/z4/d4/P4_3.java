@@ -2,7 +2,7 @@ package arithmetic.z4.d4;
 
 public class P4_3 {
 
-    static final int SIZE = 10;
+    static final int SIZE = 3000;
 
     public static void insertionSort(int[] a){
         int i,j,t,h;

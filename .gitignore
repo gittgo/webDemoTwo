@@ -8,6 +8,7 @@
 *.iml
 .idea/
 #.gitignore
+out/
 
 # Others
 target/
