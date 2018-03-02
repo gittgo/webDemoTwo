@@ -1,4 +1,4 @@
-
+package src.test;
 import blackhorse.JDBC.Demo3;
 import org.junit.Test;
 
