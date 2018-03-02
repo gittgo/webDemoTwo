@@ -1,8 +1,10 @@
 package src.arithmetic.z4.d6;
 
+import java.util.Date;
+
 public class P4_5 {
 
-    static final int SIZE = 18;
+    static final int SIZE = 3000;
 
     public static void quickSort(int[] arr,int left,int right){
        int f,t;
@@ -39,21 +41,23 @@ public class P4_5 {
 
     public static void main(String[] args) {
         int[] shuzu = new int[SIZE];
-        for (int i = 0; i < SIZE; i++) {
-            shuzu[i] = (int)(100 + Math.random()*(100+1));
-        }
+//        for (int i = 0; i < SIZE; i++) {
+//            shuzu[i] = (int)(100 + Math.random()*(100+1));
+//        }
         //
         System.out.println("排序前数组为：");
-        for (int i = 0; i < shuzu.length; i++) {
-            System.out.print("  "+ shuzu[i]);
-        }
+        System.out.println("begin time"+ new Date());
+//        for (int i = 0; i < shuzu.length; i++) {
+//            System.out.print("  "+ shuzu[i]);
+//        }
         //
         System.out.println();
         quickSort(shuzu,0,SIZE-1);
         System.out.println("排序后数组为：");
-        for (int i = 0; i < shuzu.length; i++) {
-            System.out.print("  "+ shuzu[i]);
-        }
+        System.out.println("end time"+ new Date());
+//        for (int i = 0; i < shuzu.length; i++) {
+//            System.out.print("  "+ shuzu[i]);
+//        }
 
     }
 }

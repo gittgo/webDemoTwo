@@ -65,6 +65,26 @@ public class P4_6 {
     }
 
     public static void main(String[] args) {
+
+        String as = null;
+        System.out.println(as==null);
+        System.out.println(as);
+        System.out.println();
+
+        as = String.valueOf(null);
+        //as.valueOf(null);
+
+
+        String a1 = "ABC";
+        String a2 = "ACB";
+
+
+        System.out.println(a1.compareTo(a2));
+        System.out.println(a1.compareTo(a1));
+        if(a1.compareTo(a2)>0){
+            System.out.println("t");
+        }
+
         int[] shuzu = new int[SIZE];
         for (int i = 0; i < SIZE; i++) {
             shuzu[i] = (int)(100 + Math.random()*(100+1));
@@ -76,11 +96,14 @@ public class P4_6 {
         }
         //
         System.out.println();
-        heapSort(shuzu,SIZE);
+        // heapSort(shuzu,SIZE);
         System.out.println("排序后数组为：");
         for (int i = 0; i < shuzu.length; i++) {
             System.out.print("  "+ shuzu[i]);
         }
+
+
+
 
     }
 }
